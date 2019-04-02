@@ -26,6 +26,9 @@ class Footer extends Component {
             </label>
             <button type="submit">Enviar</button>
           </form>
+          <div>
+            
+          </div>
         </div>
       </footer>
     );
