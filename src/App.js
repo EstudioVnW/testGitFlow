@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Images from './Images';
 import './App.css';
 
+import Service from './components/Service.js';
+
 class App extends Component {
   render() {
     return (
