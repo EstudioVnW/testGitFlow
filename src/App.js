@@ -1,17 +1,10 @@
 import React, { Component } from 'react';
 import Images from './Images';
 import './App.css';
-import Footer from './components/Footer';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>*Bem na Web*</h1>
-        </header>
-        <Footer />
         <div className="servicosBox">
           <div className="servicosBos_box-items">
             <h1>Serviços</h1>
@@ -19,7 +12,7 @@ class App extends Component {
               soluções digitais otimizadas, confiáveis e que 
               atendam seus reais objetivos de negócios.</p>
           </div>
-         </div>
+        </div>
         <Images />
       </div>
     );
