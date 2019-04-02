@@ -7,6 +7,24 @@ class Footer extends Component {
         <h1>Contato</h1>
         <div>
           <p>Você tem um projeto para nós? Entre em contato e vamos conversar:</p>
+          <form>
+            <label>
+              _nome
+              <input type="text"/>
+            </label>
+            <label>
+              _telefone
+              <input type="text" />
+            </label>
+            <label>
+              _email
+              <input type="text" />
+            </label>
+            <label>
+              _mensagem
+              <input type="text" />
+            </label>
+          </form>
         </div>
       </footer>
     );
