@@ -7,6 +7,12 @@ import Service from './components/Service.js';
 class App extends Component {
   render() {
     return (
+      <div className="App">
+        <header className="App-header">
+          <p className="BoxText">Portfolio</p>
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1>*Bem na Web*</h1>
+        </header>
       <div className="servicosBox">
         <div className="servicosBos_box-items">
           <h1>Serviços</h1>
@@ -16,6 +22,7 @@ class App extends Component {
         </div>
        </div>
         <Images />
+      </div>
     );
   }
 }
