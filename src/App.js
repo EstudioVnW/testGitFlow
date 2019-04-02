@@ -12,7 +12,7 @@ class App extends Component {
             soluções digitais otimizadas, confiáveis e que 
             atendam seus reais objetivos de negócios.</p>
         </div>
-        
+        <Images />
       </div>
     );
   }
