@@ -22,8 +22,9 @@ class Footer extends Component {
             </label>
             <label>
               _mensagem
-              <input type="text" />
+              <textarea name="message" rows="4" placeholder="insira sua mensagem"></textarea>
             </label>
+            <button type="submit">Enviar</button>
           </form>
         </div>
       </footer>
