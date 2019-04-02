@@ -13,7 +13,7 @@ class App extends Component {
               atendam seus reais objetivos de negócios.</p>
           </div>
         </div>
-        <Images />
+        
       </div>
     );
   }
