@@ -16,3 +16,24 @@
   text-decoration: underline;
   font-size: 3vw;
 }
+.servicosBox{
+  width: 100%;
+  display: flex;
+}
+.servicosBos_box-items{
+  margin-left: 5%;
+}
+h1{
+  color: #F26522;
+  margin-bottom: 22px;
+  text-decoration: underline;
+  font-size: 3vw;
+}
+p{
+  width: 45%;
+  margin-bottom: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 400;
+  font-size: 1.3vw;
+  color: #2E3192;
+}
