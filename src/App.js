@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import Service from './components/Service';
 import Servicos from './components/Servicos';
 import Footer from './components/Footer';
 
@@ -12,6 +13,7 @@ class App extends Component {
           <p className="BoxText">Portfolio</p>
           <h1>*Bem na Web*</h1>
         </header>
+        <Service />
         <Servicos />
         <Footer />
       </div>
