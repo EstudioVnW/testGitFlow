@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import '../App.css';
+
 class Footer extends Component {
   render() {
     return (
@@ -26,8 +28,19 @@ class Footer extends Component {
             </label>
             <button type="submit">Enviar</button>
           </form>
-          <div>
-            
+        </div>
+        <div className="footer_infos">
+          <div className="footer_realizacao">
+            <p>realização</p>
+            <p>Instituto PrecisaSer</p>
+          </div>
+          <div className="footer_parceiros">
+            <p>parceiros</p>
+            <div className="footer_parceiros-items">
+              <p>1STi</p>
+              <p>Educap</p>
+              <p>Proa</p>
+            </div>
           </div>
         </div>
       </footer>
