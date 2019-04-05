@@ -11,6 +11,10 @@ class App extends Component {
         <header className="App-header">
           <p className="BoxText">Portfolio</p>
           <img src={logo} className="App-logo" alt="logo" />
+
+
+
+          
           <h1>*Bem na Web*</h1>
         </header>
       <div className="servicosBox">
