@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import Images from './Images';
 import './App.css';
 
 import Service from './components/Service.js';
+import Servicos from './components/Servicos';
+import Footer from './components/Footer';
+>>>>>>> c4ac19e9fad5bf448d804adf40f39116a972420a
 
 class App extends Component {
   render() {
@@ -23,6 +25,9 @@ class App extends Component {
         </div>
        </div>
         <Images />
+        </header>
+        <Servicos />
+        <Footer />
       </div>
     );
   }
