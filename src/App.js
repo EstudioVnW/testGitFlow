@@ -19,6 +19,7 @@ class App extends Component {
           <p>Utilizamos as melhores plataformas e linguagens para entregar 
             soluções digitais otimizadas, confiáveis e que 
             atendam seus reais objetivos de negócios.</p>
+            <p>olá mundo</p>
         </div>
        </div>
         <Images />
