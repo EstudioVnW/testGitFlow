@@ -5,7 +5,8 @@ class Servicos extends Component {
     return (
       <div>
         <h1>Sobre</h1>
-        <p>O Estúdio Vai na Web é um centro de formação continuada, sem fins lucrativos. Criado, gerenciado e liderado por estudantes de programação e desenvolvimento de software do programa Vai na Web.</p>
+        <p> 
+           O Estúdio Vai na Web é um centro de formação continuada, sem fins lucrativos. Criado, gerenciado e liderado por estudantes de programação e desenvolvimento de software do programa Vai na Web.</p>
       </div>
     );
   }
