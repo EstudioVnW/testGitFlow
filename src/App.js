@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
-import Images from './Images';
 import './App.css';
 
+
 import Service from './components/Service.js';
+
+import Servicos from './components/Servicos';
+import Footer from './components/Footer';
+
 
 class App extends Component {
   render() {
@@ -10,6 +14,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <p className="BoxText">Portfolio</p>
+
           <img src={logo} className="App-logo" alt="logo" />
 
 
@@ -35,6 +40,11 @@ class App extends Component {
         </div>
        </div>
         <Images />
+
+          <h1>*Bem na Web*</h1>
+        </header>
+        <Servicos />
+        <Footer />
       </div>
     );
   }
