@@ -7,6 +7,9 @@ class Footer extends Component {
         <h1>Contato</h1>
         <div>
           <p>Você tem um projeto para nós? Entre em contato e vamos conversar:</p>
+
+
+
           <form>
             <label>
               _nome
@@ -22,9 +25,14 @@ class Footer extends Component {
             </label>
             <label>
               _mensagem
+
+              <input type="text" />
+            </label>
+
               <textarea name="message" rows="5" placeholder="insira sua mensagem"></textarea>
             </label>
             <button type="submit">Enviar</button>
+
           </form>
         </div>
       </footer>
